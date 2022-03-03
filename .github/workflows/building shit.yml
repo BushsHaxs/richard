@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: BuildingShit
+name: Macos Build CI
 
 # Controls when the action will run. 
 on:
@@ -62,7 +62,7 @@ jobs:
         with:
           name: html5Build
           path: export/release/html5/bin
-      buildMac:
+  buildMac:
     runs-on: macos-latest
 
     steps:
